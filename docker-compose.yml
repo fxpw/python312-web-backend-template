@@ -30,3 +30,4 @@ services:
 
 volumes:
   python312_web_backend_template_db_local:
+    driver: local
