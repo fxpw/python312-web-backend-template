@@ -1,0 +1,12 @@
+ruff
+asyncio
+python-dateutil
+python-dotenv
+debugpy
+alembic
+requests
+flask[async]
+flask-cors
+asyncpg
+sqlalchemy
+faker

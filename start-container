@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+if [ "$APP_ENV" == "development" ]; then
+	FLASK_APP=main.py python -m debugpy --listen 0.0.0.0:5678 -m flask run --host=0.0.0.0
+else
+    python main.py
+fi
